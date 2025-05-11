@@ -72,7 +72,7 @@ Metrics:
 		"prompt":     llmPrompt,
 		"max_tokens": 20000,
 		"metadata": map[string]string{
-			"trace_name": "ct_bot",
+			"trace_name": "team_bot",
 		},
 	}
 	body, _ := json.Marshal(payload)
